@@ -8616,6 +8616,7 @@ h1, h2, h3, h4, h5,
         width: 13px;
         height: 13px;
         margin: 5px;
+        margin-bottom:15px;
         border-radius: 50%;
         background: #000; }
         .owl-carousel.home-slider .owl-dots .owl-dot.active {
@@ -15260,6 +15261,7 @@ section {
 
   #com-value .nonloop-block-13 .owl-dots {
   margin-top: 30px;
+  margin-bottom: 20px;
   width: 100%;
   text-align: center; }
   #com-value .nonloop-block-13 .owl-dots .owl-dot {
@@ -17240,6 +17242,8 @@ display: block; }
   max-width: 1584px;
   width: 100%;
   margin: 0 auto;
+  
+  
 }
 
   .set-bg {
@@ -17640,9 +17644,9 @@ display: block; }
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: top;
+  -ms-flex-align: top;
+  align-items: top;
   overflow: hidden;
   padding: 15px;
   background-color: #1D2227;
@@ -18209,7 +18213,18 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
 /************
 1. 1600px
 ************/
+@media only screen and (max-width: 2400px)
+{
 
+  .hs-item .hs-text h2{
+    font-size:80px;
+    max-width: 20%;
+  }
+
+  .hs-item .hs-text p{
+    max-width: 25%;
+  }
+}
 @media only screen and (max-width: 1600px)
 {
   
@@ -18233,6 +18248,10 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
     margin-top: 5px;
   }
 
+  .hs-item .hs-text h2{
+    font-size:80px;
+  }
+
 }
 
 /************
@@ -18242,6 +18261,14 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
 @media only screen and (max-width: 1440px)
 {
 	
+  .hs-item .hs-text h2{
+    font-size:50px;
+    max-width: 17%;
+  }
+
+  .hs-item .hs-text p{
+    max-width: 22%;
+  }
 }
 
 /************
@@ -18281,7 +18308,7 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
   }
 
   .sp-container{
-    margin-top: -150px;
+    margin-top: -50px;
   }
 
   #ournew-slider{
@@ -18291,6 +18318,12 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
   .tabulation .nav-pills .nav-item .nav-link {
     font-size: 25px;
   }
+
+  .owl-carousel .owl-nav{
+  top:73%;
+
+  }
+
 
   
 
@@ -18403,3 +18436,8 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
 {
 	
 }
+
+
+
+/* slider edit */
+
