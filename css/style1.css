@@ -16146,7 +16146,7 @@ Location section
   color: #000;
 }
 .gld-clr{
-  color:#9e8751 ;
+  color:#9e8751 !important;
 }
 .wit-clr{
   color:#fff ;
@@ -17883,7 +17883,7 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
   -ms-appearance: none !important;
   position: relative;
   background: 0 0;
-  z-index: 10;
+  z-index: 0;
   cursor: pointer; }
 
   #job-post-new .select-icon {
@@ -18212,7 +18212,27 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
 
 @media only screen and (max-width: 1600px)
 {
-	
+  
+  .about-area .about-details .right-caption .section-tittle h2{
+    font-size: 25px;
+    margin-top: 5px;
+
+  }
+  .about-area .about-details .right-caption .about-more p{
+    font-size: 20px;
+    margin-top: 5px;
+
+  }
+
+  .about-area2 .about-details2 .right-caption2 .section-tittle h2{
+    font-size: 25px;
+    margin-top: 5px;
+  }
+  .about-area2 .about-details2 .right-caption2 .about-more p{
+    font-size: 20px;
+    margin-top: 5px;
+  }
+
 }
 
 /************
@@ -18249,7 +18269,7 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
 @media only screen and (max-width: 1199px)
 {
   #ftco-navbar li a{
-    font-size: 10px;
+    font-size: 13px;
   }
   .ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
     padding: 3px;
@@ -18269,7 +18289,7 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
   }
 
   .tabulation .nav-pills .nav-item .nav-link {
-    font-size: 15px;
+    font-size: 25px;
   }
 
   
