@@ -237,21 +237,21 @@ jQuery(document).ready(function($) {
 	    scrollProperty: 'scroll'
 	  });
 	};
-	// siteStellar();
+	siteStellar();
 
-	var siteCountDown = function() {
+	// var siteCountDown = function() {
 
-		$('#date-countdown').countdown('2020/10/10', function(event) {
-		  var $this = $(this).html(event.strftime(''
-		    + '<span class="countdown-block"><span class="label">%w</span> weeks </span>'
-		    + '<span class="countdown-block"><span class="label">%d</span> days </span>'
-		    + '<span class="countdown-block"><span class="label">%H</span> hr </span>'
-		    + '<span class="countdown-block"><span class="label">%M</span> min </span>'
-		    + '<span class="countdown-block"><span class="label">%S</span> sec</span>'));
-		});
+	// 	$('#date-countdown').countdown('2020/10/10', function(event) {
+	// 	  var $this = $(this).html(event.strftime(''
+	// 	    + '<span class="countdown-block"><span class="label">%w</span> weeks </span>'
+	// 	    + '<span class="countdown-block"><span class="label">%d</span> days </span>'
+	// 	    + '<span class="countdown-block"><span class="label">%H</span> hr </span>'
+	// 	    + '<span class="countdown-block"><span class="label">%M</span> min </span>'
+	// 	    + '<span class="countdown-block"><span class="label">%S</span> sec</span>'));
+	// 	});
 				
-	};
-	siteCountDown();
+	// };
+	// siteCountDown();
 
 	var siteDatePicker = function() {
 
@@ -342,12 +342,12 @@ jQuery(document).ready(function($) {
         $(this).css('background-image', 'url(' + bg + ')');
     });
 
-    //Masonary
-    $('.work__gallery').masonry({
-        itemSelector: '.work__item',
-        columnWidth: '.grid-sizer',
-        gutter: 10
-	});
+    // Masonary
+    // $('.work__gallery').masonry({
+    //     itemSelector: '.work__item',
+    //     columnWidth: '.grid-sizer',
+    //     gutter: 10
+	// });
 	 /*------------------
         Video Popup
     --------------------*/
