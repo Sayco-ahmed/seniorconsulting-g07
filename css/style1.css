@@ -8477,7 +8477,8 @@ h1, h2, h3, h4, h5,
       .owl-carousel .owl-nav .owl-next span:before {
         font-size: 30px; }
     .owl-carousel .owl-nav .owl-prev {
-      left: 0; }
+      left: 0;
+      color: white; }
     .owl-carousel .owl-nav .owl-next {
       right: 0; }
   /* .owl-carousel .owl-dots {
@@ -17312,6 +17313,7 @@ display: block; }
  
  .hero-slider .owl-nav button.owl-prev {
    background: #081624;
+   
  }
  
  .hero-slider .owl-nav button.owl-prev span {
@@ -18252,6 +18254,10 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
   .hs-item .hs-text h2{
     font-size:80px;
   }
+  .owl-carousel .owl-nav{
+    top:65%;
+  
+    }
 
 }
 
@@ -18270,6 +18276,11 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
   .hs-item .hs-text p{
     max-width: 22%;
   }
+
+  .owl-carousel .owl-nav{
+    top:65%;
+  
+    }
 }
 
 /************
@@ -18321,7 +18332,7 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
   }
 
   .owl-carousel .owl-nav{
-  top:73%;
+  top:55%;
 
   }
 
@@ -18441,4 +18452,6 @@ display-flex, #job-post-new .signup-content, #job-post-new .form-row, #job-post-
 
 
 /* slider edit */
-
+.hero-slider .owl-nav button.owl-prev h4{
+  color: white !important;
+}
