@@ -57,7 +57,7 @@
         dots: false,
         animateOut: 'fadeOut',
     	animateIn: 'fadeIn',
-		navText: ['<img src="img/icons/arrow-left-white.png" alt="">', '<img src="img/icons/arrow-right-black.png" alt="">'],
+		navText: ['<h4> Next </h4>', '<h4> Prev </h4>'],
         smartSpeed: 1200,
 		autoplay: true,
 		mouseDrag: false
@@ -90,13 +90,13 @@
 		}
 
 
-		$(".hero-slider .owl-nav button.owl-prev").html('<img src="img/icons/arrow-left-white.png" alt=""> <span> '+ PreIndex +'</span> ');
-		$(".hero-slider .owl-nav button.owl-next").html('<span> '+ NextIndex +' </span> <img src="img/icons/arrow-right-black.png" alt="">');
+		$(".hero-slider .owl-nav button.owl-prev").html('<h4> Prev </h4> <span> '+ PreIndex +'</span> ');
+		$(".hero-slider .owl-nav button.owl-next").html('<span> '+ NextIndex +' </span> <h4> Next </h4>');
 	});
 
-	$(".hero-slider .owl-nav button.owl-prev").html('<img src="img/icons/arrow-left-white.png" alt=""> <span> '+ sliderCount +'</span> ');
+	$(".hero-slider .owl-nav button.owl-prev").html('<h4> Prev </h4> <span> '+ sliderCount +'</span> ');
 
-	$(".hero-slider .owl-nav button.owl-next").html('<span>02</span> <img src="img/icons/arrow-right-black.png" alt="">');
+	$(".hero-slider .owl-nav button.owl-next").html('<span>02</span> <h4> Next </h4>');
 
 
 
